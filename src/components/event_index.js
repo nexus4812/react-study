@@ -22,13 +22,13 @@ class EventIndex extends Component {
     render() {
     return (
         <table>
-            <tread>
+            <thead>
                 <tr>
                     <th>ID</th>
                     <th>Title</th>
                     <th>Body</th>
                 </tr>
-            </tread>
+            </thead>
 
             <tbody>
                 {this.renderEvents()}
